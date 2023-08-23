@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculadora_javafx.HelloController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="210.0" layoutX="140.0" layoutY="24.0" stroke="BLACK" strokeType="INSIDE" width="460.0" AnchorPane.bottomAnchor="470.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0" />
+      <Label fx:id="equationLabel" alignment="CENTER_RIGHT" layoutX="416.0" layoutY="156.0" text="teste" AnchorPane.bottomAnchor="520.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="100.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="22.0" layoutY="302.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="(" AnchorPane.bottomAnchor="395.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="380.0" AnchorPane.topAnchor="250.0" />
+      <Button layoutX="96.0" layoutY="302.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text=")" AnchorPane.bottomAnchor="395.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="260.0" AnchorPane.topAnchor="250.0" />
+      <Button layoutX="170.0" layoutY="302.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="CE" AnchorPane.bottomAnchor="395.0" AnchorPane.leftAnchor="260.0" AnchorPane.rightAnchor="140.0" AnchorPane.topAnchor="250.0" />
+      <Button layoutX="240.0" layoutY="302.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="⌫" AnchorPane.bottomAnchor="395.0" AnchorPane.leftAnchor="380.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="250.0" />
+      <Button layoutX="32.0" layoutY="312.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="1/x" AnchorPane.bottomAnchor="320.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="380.0" AnchorPane.topAnchor="325.0" />
+      <Button layoutX="106.0" layoutY="312.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="x^2" AnchorPane.leftAnchor="140.0" AnchorPane.topAnchor="325.0" />
+      <Button layoutX="180.0" layoutY="312.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="√x" AnchorPane.leftAnchor="260.0" AnchorPane.topAnchor="325.0" />
+      <Button layoutX="250.0" layoutY="312.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="÷" AnchorPane.leftAnchor="380.0" AnchorPane.topAnchor="325.0" />
+      <Button layoutX="32.0" layoutY="312.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="7" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="380.0" AnchorPane.topAnchor="400.0" />
+      <Button layoutX="106.0" layoutY="312.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="8" AnchorPane.leftAnchor="140.0" AnchorPane.topAnchor="400.0" />
+      <Button layoutX="180.0" layoutY="312.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="9" AnchorPane.leftAnchor="260.0" AnchorPane.topAnchor="400.0" />
+      <Button layoutX="250.0" layoutY="312.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="×" AnchorPane.leftAnchor="380.0" AnchorPane.topAnchor="400.0" />
+      <Button layoutX="42.0" layoutY="322.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="4" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="380.0" AnchorPane.topAnchor="475.0" />
+      <Button layoutX="116.0" layoutY="322.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="5" AnchorPane.leftAnchor="140.0" AnchorPane.topAnchor="475.0" />
+      <Button layoutX="190.0" layoutY="322.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="6" AnchorPane.leftAnchor="260.0" AnchorPane.topAnchor="475.0" />
+      <Button layoutX="260.0" layoutY="322.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="-" AnchorPane.leftAnchor="380.0" AnchorPane.topAnchor="475.0" />
+      <Button layoutX="32.0" layoutY="312.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="1" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="380.0" AnchorPane.topAnchor="550.0" />
+      <Button layoutX="106.0" layoutY="312.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="2" AnchorPane.leftAnchor="140.0" AnchorPane.topAnchor="550.0" />
+      <Button layoutX="260.0" layoutY="549.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="3" AnchorPane.leftAnchor="260.0" AnchorPane.topAnchor="550.0" />
+      <Button layoutX="250.0" layoutY="312.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="+" AnchorPane.leftAnchor="380.0" AnchorPane.topAnchor="550.0" />
+      <Button layoutX="42.0" layoutY="322.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="+/-" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="380.0" AnchorPane.topAnchor="625.0" />
+      <Button layoutX="116.0" layoutY="322.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="0" AnchorPane.leftAnchor="140.0" AnchorPane.topAnchor="625.0" />
+      <Button layoutX="190.0" layoutY="322.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="100.0" text="," AnchorPane.leftAnchor="260.0" AnchorPane.topAnchor="625.0" />
+      <Button layoutX="260.0" layoutY="322.0" mnemonicParsing="false" onAction="#onCalculateButton" prefHeight="55.0" prefWidth="100.0" text="=" AnchorPane.leftAnchor="380.0" AnchorPane.topAnchor="625.0" />
+   </children>
+</AnchorPane>
